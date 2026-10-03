@@ -1,4 +1,5 @@
-# 📊 Dashboard de Supply Chain — DataCo Global (Power BI)
+# 📊 Análisis de Ventas y Distribución Comercial en Supply Chain con Power BI — Proceso ETL y Modelo Dimensional
+
 
 Proyecto de Business Intelligence end-to-end: extracción y transformación de un dataset público de cadena de suministro, construcción de un modelo dimensional en estrella y publicación de un reporte de tres páginas en Power BI con navegación, panel de filtros y medidas DAX con comparativo interanual.
 
