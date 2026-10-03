@@ -15,16 +15,20 @@ GitHub: [sebasvalma540](https://github.com/sebasvalma540)
   </a>
 </p> 
 
+**Video de demostración del Dashboard**
+
+<video controls src="Imagenes y video del dashboard/Grabación de pantalla 2026-10-03 161906.mp4" title="Title"></video>
 
 **Página 1 — General: Resumen Comercial**
-![alt text](<Imagenes del dashboard/Pantalla general.png>)
+![alt text](<Imagenes y video del dashboard/Pantalla general.png>)
+
 
 **Página 2 — Seguimiento: Evaluación Mensual de Ventas**
-![alt text](<Imagenes del dashboard/Pantalla seguimiento.png>)
+![alt text](<Imagenes y video del dashboard/Pantalla seguimiento.png>)
 
 **Página 3 — Mapa: Cobertura Geográfica de Clientes**
-![alt text](<Imagenes del dashboard/Pantalla Mapa.png>)
----
+![alt text](<Imagenes y video del dashboard/Pantalla Mapa.png>)
+
 
 ## 1. Caso de negocio
 
