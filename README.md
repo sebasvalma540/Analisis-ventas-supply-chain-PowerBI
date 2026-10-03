@@ -427,16 +427,7 @@ Muestra la concentración de la demanda: Estados Unidos encabeza con ~25 mil ped
 
 ---
 
-## 8. Consideraciones y mejoras pendientes
-
-- **Formato de la variación de margen:** en `Variacion Margen % Texto`, la expresión `FORMAT([Variacion Margen Numero], "0.0000") * 100` multiplica por 100 el resultado de un `FORMAT`, que devuelve texto. DAX resuelve la operación con una conversión implícita de texto a número y el resultado es correcto, pero depende del separador decimal de la configuración regional. La versión robusta es `CONCATENATE(ROUND([Variacion Margen Numero] * 100, 4), " PT")`, que opera sobre el número antes de formatear, igual que hacen las otras tres medidas de variación.
-- **Campos logísticos sin explotar:** `Días de envío programados`, `Días de envío reales` y `Entrega tardía` ya están en el modelo pero aún no tienen visuales asociados. Una cuarta página de cumplimiento de entregas (% de entregas tardías por modo de envío y por mercado) es la extensión natural del tablero.
-- **Dimensión de tiempo del envío:** hoy solo `Fecha de pedido` tiene relación activa con el calendario. Para analizar el desempeño por fecha de despacho haría falta una relación inactiva sobre `Fecha de envío` activada con `USERELATIONSHIP`.
-- **Naturaleza del dato:** el dataset es una fuente académica de referencia, no datos productivos de una empresa real, por lo que las conclusiones son válidas como ejercicio analítico y no como diagnóstico de negocio.
-
----
-
-## 9. Referencias
+## 8. Referencias
 
 - Constante, F., Silva, F. y Pereira, A. (2019). *DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS* (Versión 5) [Conjunto de datos]. Mendeley Data. https://doi.org/10.17632/8gx2fvg2k6.5
 - Kaggle. *DataCo Smart Supply Chain for Big Data Analysis*. https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
